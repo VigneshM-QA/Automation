@@ -2,7 +2,15 @@
 <suite name="Sample Suite" parallel="false">
     <test name="Smoke Tests">
         <classes>
-            <class name="com.yourcompany.automation.tests.HomePageTest"/>
+            <class name="tests.HomePageTest"/>
         </classes>
     </test>
 </suite>
+
+<!--<suite name="Sample Suite" parallel="false">-->
+<!--<test>-->
+<!--    <classes>-->
+<!--        <class name="tests.HomePageTest"/>-->
+<!--    </classes>-->
+<!--</test>-->
+<!--</suite>-->

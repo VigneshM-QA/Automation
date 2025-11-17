@@ -1,4 +1,4 @@
-package com.yourcompany.automation.tests;
+package tests;
 
 import com.yourcompany.automation.base.BaseTest;
 import com.yourcompany.automation.pages.HomePage;
