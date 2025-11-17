@@ -5,12 +5,10 @@
             <class name="tests.HomePageTest"/>
         </classes>
     </test>
-</suite>
 
-<!--<suite name="Sample Suite" parallel="false">-->
-<!--<test>-->
-<!--    <classes>-->
-<!--        <class name="tests.HomePageTest"/>-->
-<!--    </classes>-->
-<!--</test>-->
-<!--</suite>-->
+    <test name="Regression Tests">
+        <classes>
+            <class name="tests.NewRegressionTest"/>
+        </classes>
+    </test>
+</suite>
