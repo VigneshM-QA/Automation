@@ -1,12 +1,13 @@
 package tests;
 
-import com.yourcompany.automation.base.BaseTest;
+//import com.yourcompany.automation.base.BaseTest;
+import com.yourcompany.automation.base.RegTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.HomePage;
+//import pages.HomePage;
 import pages.RegressionPage;
 
-public class NewRegressionTest extends BaseTest {
+public class NewRegressionTest extends RegTest {
 
     @Test(description = "Verify the google page")
     public void verifyRegressionPage() {
